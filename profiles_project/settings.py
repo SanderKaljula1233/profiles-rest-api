@@ -119,3 +119,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://do
+
+STATIC_URL = '/static/'
+
+AUTH_USER_MODEL = 'profiles_api.UserProfile'
